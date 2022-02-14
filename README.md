@@ -37,17 +37,19 @@ O Data Warehouse foi construído com os seguintes dados para ajudar a relatar te
 <p> Passo a passo </p>
 <li> Criação de dois linked services para as conexões com o blob e o data lake: </li>
 
-![Captura de Tela 2022-02-14 às 16 16 55](https://user-images.githubusercontent.com/53180510/153931630-f3a08fae-cc59-4c48-8b86-823a2fd3f42f.png)
+<img width="600" height="300" src= "https://user-images.githubusercontent.com/53180510/153931630-f3a08fae-cc59-4c48-8b86-823a2fd3f42f.png">
+
 
 <li> Criação de dois datasets, um no blob onde foi carregado o arquivo "population_by_age" e um no ADLS para onde o arquivo foi copiado </li>
 <li> Criação do pipeline</li>
 <li>Na primeira atividade foi feita uma validação para checagem se o arquivo realmente existia no Blob antes de ser copiado para o ADSL Gen2.</li>
 
-![Captura de Tela 2022-02-14 às 15 38 09](https://user-images.githubusercontent.com/53180510/153932381-01cdefe8-0aa6-4d92-a82b-9d45cf1c1ea5.png)
+<img width="650" height="250" src= "https://user-images.githubusercontent.com/53180510/153932381-01cdefe8-0aa6-4d92-a82b-9d45cf1c1ea5.png">
 
-<li>Na segunda, além da validação anterior, foi inserida uma condição para a cópia do arquivo, ela só seria feito se o número de colunas do dataset estivesse correto. Para isso foi feita uma atividade no If para condição True. Caso essa atividade essa condição estivesse satisfeita, o arquivo seria copiado e após, excluído do blob.
+<li>Na segunda, além da validação anterior, foi inserida uma condição para a cópia do arquivo, ela só seria feito se o número de colunas do dataset estivesse correto. Para isso foi feita uma atividade no If para condição True. Caso essa atividade essa condição estivesse satisfeita, o arquivo seria copiado e após, excluído do blob.</li>
   
-![Captura de Tela 2022-02-14 às 16 36 48](https://user-images.githubusercontent.com/53180510/153934018-581b65ce-1990-4a2e-865d-2f33bfce2e64.png)
+<img width="600" height="250" src= "https://user-images.githubusercontent.com/53180510/153934018-581b65ce-1990-4a2e-865d-2f33bfce2e64.png">
+<img width="600" height="250" src= "https://user-images.githubusercontent.com/53180510/153935208-29f64b8d-12f7-47d4-8591-d4cfc0db8316.png">
 
-![Captura de Tela 2022-02-14 às 16 05 54](https://user-images.githubusercontent.com/53180510/153933282-05116164-34cf-49a0-83fd-157f3e08eeed.png)
+
 
