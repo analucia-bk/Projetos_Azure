@@ -39,3 +39,6 @@ O Data Warehouse foi construído com os seguintes dados para ajudar a relatar te
 <li>Azure SQL Database</li>
 <li>Azure Databricks Cluster</li>
 <li>HD Insight Cluster</li>
+
+<h3>Primeira atividade no Azure Data Factory: CopyData</h3>
+<p> Realizar a ingestão dos dados do arquivo "population by age" no Data Lake que posteriormente serão utilizados nos modelos de machine learning para predizer o aumento das taxas de mortalidade</p>
