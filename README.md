@@ -29,3 +29,13 @@ O Data Warehouse foi construído com os seguintes dados para ajudar a relatar te
 <li>Quantidade de testes</li>
 <h4>Eurostat Website:</h4>
 <li>População por faixa etária</li>
+
+<h3> Arquitetura </h3>
+
+<h3>Recursos Utilizados:</h3>
+<li>Data Factory</li>
+<li>Blob Storage Account</li>
+<li>Data Lake Storage Gen2</li>
+<li>Azure SQL Database</li>
+<li>Azure Databricks Cluster</li>
+<li>HD Insight Cluster</li>
