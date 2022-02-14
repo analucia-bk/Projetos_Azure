@@ -47,8 +47,7 @@ O Data Warehouse foi construído com os seguintes dados para ajudar a relatar te
 
 <li>Na segunda, além da validação anterior, foi inserida uma condição para a cópia do arquivo, ela só seria feito se o número de colunas do dataset estivesse correto. Para isso foi feita uma atividade no If para condição True. Caso essa atividade essa condição estivesse satisfeita, o arquivo seria copiado e após, excluído do blob.
   
-  
-![Captura de Tela 2022-02-14 às 15 53 54](https://user-images.githubusercontent.com/53180510/153932971-5d9dc63a-aaeb-4305-ab7b-c34b2a670138.png)
+![Captura de Tela 2022-02-14 às 16 36 48](https://user-images.githubusercontent.com/53180510/153934018-581b65ce-1990-4a2e-865d-2f33bfce2e64.png)
 
 ![Captura de Tela 2022-02-14 às 16 05 54](https://user-images.githubusercontent.com/53180510/153933282-05116164-34cf-49a0-83fd-157f3e08eeed.png)
 
