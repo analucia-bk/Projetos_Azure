@@ -22,15 +22,6 @@ O Data Warehouse foi construído com os seguintes dados para ajudar a relatar te
 <li>Hospitalização e Casos de UTI</li>
 <li>Quantidade de testes</li>
 
-<h3> Fonte dos dados </h3>
-<p>ECDC Website: </p>
-<li>Casos Confirmados</li>
-<li>Mortalidade</li>
-<li>Hospitalização e Casos de UTI</li>
-<li>Quantidade de testes</li>
-<h4>Eurostat Website:</h4>
-<li>População por faixa etária</li>
-
 <h3> Arquitetura </h3>
 
 <h3>Recursos Utilizados:</h3>
