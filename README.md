@@ -52,4 +52,13 @@ O Data Warehouse foi construído com os seguintes dados para ajudar a relatar te
 <img width="600" height="250" src= "https://user-images.githubusercontent.com/53180510/153935208-29f64b8d-12f7-47d4-8591-d4cfc0db8316.png">
 
 
+<h3>Segunda atividade no Azure Data Factory: CopyData</h3>
+<p> Realizar a ingestão dos dados do arquivo "cases_death_csv" no Data Lake, a ingestão dos dados, diferentemente da primeira atividade, foi feita via HTTP. Por isso, foi criado um novo linked service para realizar a conexão, dois novos datasets, um para o arquivo via HTTP e outro na camada raw  e um novo pipeline para realizar o copy data desses dados.</p>
+ 
+<img width="300" height="200" src= "https://user-images.githubusercontent.com/53180510/154516288-68efea7c-4cf1-4d76-a636-193bfd5762ce.png">
 
+<img width="1200" height="450" src= "https://user-images.githubusercontent.com/53180510/154515623-14a42536-7c84-4dcc-8d3c-f26f78e06dc4.png">
+
+
+
+  
